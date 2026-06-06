@@ -1,7 +1,7 @@
 #tuples can't be changed
 
 mytuple = tuple(('Dave', 42, True))
-anothertuple = (1, 4, 2, 8)
+anothertuple = (1, 4, 2, 8, 2, 2)
 
 print(mytuple)
 print(type(mytuple))
@@ -19,3 +19,5 @@ print(newtuple)
 print(one)
 print(two) #remaining values unpacked into a list
 print(hey) 
+
+print(anothertuple.count(2)) # returns number of '2's in the tuple
