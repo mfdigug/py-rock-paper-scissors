@@ -71,3 +71,5 @@ print(mynums)
 print(mycopy)
 
 print(type(nums))
+
+#  print(data.) => gives list of different methods available
