@@ -1,7 +1,12 @@
 name = "Dave" # global scope
+count = 1
+# don't pollute the global scope 
 
 def greeting(firstname): # local scope
     color = "blue" # only available in local scope
+    global count # identifies that we want to use the global variable not creating a local variable
+    count += 1
+    print(count)
     print(color)
     print(firstname)
     print(name)
