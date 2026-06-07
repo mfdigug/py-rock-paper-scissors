@@ -38,8 +38,8 @@ names = ["Dave", "Sara", "John"]
 # for x in range(4):
 #     print(x)
 
-# for x in range(2, 4):
-#     print(x)
+for x in range(2, 4):
+    print(x)
 
 # for x in range(0, 100, 5):
 #     print(x)
