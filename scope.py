@@ -13,3 +13,19 @@ greeting("John")
 greeting2()
 
 # print(color) color not available here
+
+def another():
+    greeting("Dave")
+
+another()
+
+def another2():
+    color = "blue"
+
+    def greeting3(name):
+        print(color)
+        print(name)
+    
+    greeting3("Dave")
+
+another2()
